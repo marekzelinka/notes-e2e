@@ -1,0 +1,16 @@
+{
+  "name": "notes-e2e",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.1.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0"
+  }
+}
